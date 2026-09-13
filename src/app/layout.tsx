@@ -1,0 +1,3 @@
+import type { Metadata } from 'next'; import './globals.css'; import { SiteHeader } from '@/components/site-header'; import { SiteFooter } from '@/components/site-footer'
+export const metadata:Metadata={title:{default:'Horizon Realtors | Rental homes in Kerala',template:'%s | Horizon Realtors'},description:"Find a place you'll love to call home. Premium rentals across Kochi, Aluva and Ernakulam.",openGraph:{type:'website',siteName:'Horizon Realtors'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body className="min-h-screen bg-stone-50 text-stone-800"><SiteHeader/>{children}<SiteFooter/></body></html>}
