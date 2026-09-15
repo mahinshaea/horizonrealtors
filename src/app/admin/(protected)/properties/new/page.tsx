@@ -1,0 +1,1 @@
+import { PropertyForm } from '@/components/property-form'; export default function New(){return <div className="p-6 md:p-10"><h1 className="font-serif text-3xl font-bold text-emerald-950">Add property</h1><p className="mt-1 text-sm text-stone-500">Images are stored securely in the property-images bucket.</p><div className="mt-8"><PropertyForm/></div></div>}
